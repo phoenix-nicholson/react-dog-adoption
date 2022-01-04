@@ -1,3 +1,24 @@
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.3rem;
+  background-color: rgb(15, 228, 146);
+  color: black;
+  text-shadow: -1px -1px 0 rgb(252, 251, 251), 1px -1px 0 rgb(14, 13, 13), -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+.Link {
+  color: grey;
+}
+img {
+  height: auto;
+  width: 400px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10%;
+}
 .App {
   text-align: center;
 }

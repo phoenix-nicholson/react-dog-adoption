@@ -8,7 +8,9 @@ function App() {
   return (
     <BrowserRouter>
       <header>
-        <NavLink to="/dogs">Home</NavLink>
+        <NavLink className="Link" to="/dogs">
+          Home
+        </NavLink>
       </header>
       <Switch>
         <Route exact path="/dogs" component={Dogs} />
