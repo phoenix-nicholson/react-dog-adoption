@@ -13,6 +13,7 @@ export default function Dogs() {
     };
     fetchData();
   }, []);
+  console.log(dogs);
   return (
     <div>
       <DogList dogs={dogs} />
