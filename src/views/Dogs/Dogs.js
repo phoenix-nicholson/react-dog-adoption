@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import { fetchDogs } from '../../services/dog';
+import DogList from '../../components/DogList';
 
 export default function Dogs() {
   const [dogs, setDogs] = useState([]);
@@ -12,6 +13,9 @@ export default function Dogs() {
     };
     fetchData();
   }, []);
-  console.log(dogs);
-  return <div>dog</div>;
+  return (
+    <div>
+      <DogList dogs={dogs} />
+    </div>
+  );
 }
