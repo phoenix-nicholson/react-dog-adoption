@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import { fetchDogsById } from '../../services/dog';
-import DogDetails from '../../components/DogDetails';
+import DogDetails from '../../components/DogDetails-v2';
 
 export default function Dog(props) {
   const [dog, setDog] = useState([]);
