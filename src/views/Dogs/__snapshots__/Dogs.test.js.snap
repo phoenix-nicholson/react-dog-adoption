@@ -1,0 +1,270 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render a list of dogs 1`] = `
+<div>
+  <div>
+    <div>
+      <div>
+        <h1>
+          Meet 
+          Barton
+        </h1>
+        <a
+          href="/dogs/10"
+        >
+          <img
+            src="https://placedog.net/500?id=6"
+          />
+        </a>
+        <p>
+          Barton
+           is a 
+          1
+           year old 
+          Weimaraner
+        </p>
+      </div>
+      <div>
+        <h1>
+          Meet 
+          Happy
+        </h1>
+        <a
+          href="/dogs/11"
+        >
+          <img
+            src="https://placedog.net/500?id=21"
+          />
+        </a>
+        <p>
+          Happy
+           is a 
+          11
+           year old 
+          French Bulldog
+        </p>
+      </div>
+      <div>
+        <h1>
+          Meet 
+          Eyes
+        </h1>
+        <a
+          href="/dogs/14"
+        >
+          <img
+            src="https://placedog.net/500?id=22"
+          />
+        </a>
+        <p>
+          Eyes
+           is a 
+          4
+           year old 
+          Weimaraner Mix
+        </p>
+      </div>
+      <div>
+        <h1>
+          Meet 
+          Pugilicious
+        </h1>
+        <a
+          href="/dogs/15"
+        >
+          <img
+            src="https://placedog.net/500?id=26"
+          />
+        </a>
+        <p>
+          Pugilicious
+           is a 
+          12
+           year old 
+          Pug
+        </p>
+      </div>
+      <div>
+        <h1>
+          Meet 
+          Melba
+        </h1>
+        <a
+          href="/dogs/5"
+        >
+          <img
+            src="https://placedog.net/500?id=8"
+          />
+        </a>
+        <p>
+          Melba
+           is a 
+          4
+           year old 
+          Austrailian Cattle Dog
+        </p>
+      </div>
+      <div>
+        <h1>
+          Meet 
+          Liliana
+        </h1>
+        <a
+          href="/dogs/9"
+        >
+          <img
+            src="https://placedog.net/500?id=5"
+          />
+        </a>
+        <p>
+          Liliana
+           is a 
+          1
+           year old 
+          Husky
+        </p>
+      </div>
+      <div>
+        <h1>
+          Meet 
+          Ron
+        </h1>
+        <a
+          href="/dogs/6"
+        >
+          <img
+            src="https://images.pexels.com/photos/6246667/pexels-photo-6246667.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+          />
+        </a>
+        <p>
+          Ron
+           is a 
+          0
+           year old 
+          Golden Retriever
+        </p>
+      </div>
+      <div>
+        <h1>
+          Meet 
+          Amely
+        </h1>
+        <a
+          href="/dogs/2"
+        >
+          <img
+            src="https://placedog.net/500?id=12"
+          />
+        </a>
+        <p>
+          Amely
+           is a 
+          0
+           year old 
+          Rottweiler
+        </p>
+      </div>
+      <div>
+        <h1>
+          Meet 
+          Althea
+        </h1>
+        <a
+          href="/dogs/3"
+        >
+          <img
+            src="https://placedog.net/500?id=10"
+          />
+        </a>
+        <p>
+          Althea
+           is a 
+          1
+           year old 
+          German Short-haired Pointer
+        </p>
+      </div>
+      <div>
+        <h1>
+          Meet 
+          Franny
+        </h1>
+        <a
+          href="/dogs/4"
+        >
+          <img
+            src="https://placedog.net/500?id=51"
+          />
+        </a>
+        <p>
+          Franny
+           is a 
+          4
+           year old 
+          French Bulldog
+        </p>
+      </div>
+      <div>
+        <h1>
+          Meet 
+          Ginny
+        </h1>
+        <a
+          href="/dogs/16"
+        >
+          <img
+            src="https://images.pexels.com/photos/5886866/pexels-photo-5886866.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          />
+        </a>
+        <p>
+          Ginny
+           is a 
+          0
+           year old 
+          Golden Retriever
+        </p>
+      </div>
+      <div>
+        <h1>
+          Meet 
+          Eileen
+        </h1>
+        <a
+          href="/dogs/8"
+        >
+          <img
+            src="https://placedog.net/500?id=4"
+          />
+        </a>
+        <p>
+          Eileen
+           is a 
+          2
+           year old 
+          American Boxer
+        </p>
+      </div>
+      <div>
+        <h1>
+          Meet 
+          Mrs. Weasley
+        </h1>
+        <a
+          href="/dogs/17"
+        >
+          <img
+            src="https://placedog.net/1000/563?id=3"
+          />
+        </a>
+        <p>
+          Mrs. Weasley
+           is a 
+          3
+           year old 
+          Golden Retriever
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
