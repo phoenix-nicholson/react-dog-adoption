@@ -12,15 +12,15 @@ export default function Dog(props) {
     const fetchData = async () => {
       const data = await fetchDogsById(id);
       setDog(data);
-      setLoading(loading);
+      setLoading(false);
     };
 
     fetchData();
-  }, [id, loading]);
+  }, [id]);
 
   setTimeout(() => {
     setLoading(false);
-  }, 1500);
+  }, 800);
 
   if (loading) {
     return <div>Loading...</div>;

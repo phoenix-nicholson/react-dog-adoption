@@ -18,7 +18,7 @@ export default function Dogs() {
 
   setTimeout(() => {
     setLoading(false);
-  }, 1500);
+  }, 900);
 
   if (loading) {
     return <div>Loading...</div>;
