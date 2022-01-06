@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function DogDetails({ dog }) {
   return (
@@ -8,6 +9,9 @@ export default function DogDetails({ dog }) {
       <p>Age: {dog.age}</p>
       <p>Breed: {dog.breed}</p>
       <p>{dog.bio}</p>
+      <Link key={dog.id} to={`/dogs/${dog.id}/edit`}>
+        Edit
+      </Link>
     </div>
   );
 }

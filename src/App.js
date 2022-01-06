@@ -4,6 +4,7 @@ import { NavLink, Switch, Route } from 'react-router-dom';
 import Dogs from './views/Dogs/Dogs';
 import Dog from './views/Dog/Dog';
 import Admin from './views/Admin/Admin';
+import DogEdit from './views/Edit/Edit';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route exact path="/dogs/:id" component={Dog} />
         <Route exact path="/" component={Dogs} />
         <Route exact path="/admin" component={Admin} />
+        <Route exact path="/dogs/:id/edit" component={DogEdit} />
       </Switch>
     </BrowserRouter>
   );
