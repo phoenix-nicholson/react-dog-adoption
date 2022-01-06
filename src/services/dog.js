@@ -16,3 +16,5 @@ export async function fetchDogsById(id) {
   const resp = await client.from('dogs').select('*').match({ id }).single();
   return checkError(resp);
 }
+
+export async function updateDogById(dog) {}
