@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function DogForm(dog, updateDog) {
+export default function DogForm({ name, age, image, bio, breed, updateDogState, handleSubmit }) {
   return (
     <form>
       <label>
@@ -8,9 +8,9 @@ export default function DogForm(dog, updateDog) {
         <input
           type="text"
           name="name"
-          value={dog.name}
+          value={name}
           onChange={(e) => {
-            updateDog('name', e.target.value);
+            updateDogState('name', e.target.value);
           }}
         />
       </label>
@@ -20,9 +20,9 @@ export default function DogForm(dog, updateDog) {
         <input
           type="text"
           name="age"
-          value={dog.age}
+          value={age}
           onChange={(e) => {
-            updateDog('age', e.target.value);
+            updateDogState('age', e.target.value);
           }}
         />
       </label>
@@ -32,9 +32,9 @@ export default function DogForm(dog, updateDog) {
         <input
           type="text"
           name="image"
-          value={dog.image}
+          value={image}
           onChange={(e) => {
-            updateDog('image', e.target.value);
+            updateDogState('image', e.target.value);
           }}
         />
       </label>
@@ -43,9 +43,9 @@ export default function DogForm(dog, updateDog) {
         <input
           type="text"
           name="breed"
-          value={dog.breed}
+          value={breed}
           onChange={(e) => {
-            updateDog('breed', e.target.value);
+            updateDogState('breed', e.target.value);
           }}
         />
       </label>
@@ -54,12 +54,13 @@ export default function DogForm(dog, updateDog) {
         <input
           type="text"
           name="bio"
-          value={dog.bio}
+          value={bio}
           onChange={(e) => {
-            updateDog('bio', e.target.value);
+            updateDogState('bio', e.target.value);
           }}
         />
       </label>
+      <button onClick={handleSubmit}>submit</button>
     </form>
   );
 }
