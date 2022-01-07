@@ -23,6 +23,7 @@ exports[`renders dogDetails 1`] = `
         Is a Lunatic but sweet
       </p>
       <a
+        class="Link"
         href="/dogs/4/edit"
       >
         Edit

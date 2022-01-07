@@ -29,12 +29,13 @@ export default function Dog(props) {
 
   const handleDelete = async (e) => {
     e.preventDefault();
-    await deleteDog(dog);
-    if (dog !== '') {
-      alert("You've successfully deleted a dog");
-    } else {
-      alert('Request to database has failed, please try again');
+    try {
+      await deleteDog(dog);
+      alert("You've succesfully deleted your dog");
+    } catch (e) {
+      alert('failed to delete dog');
     }
+    window.location.replace('/dogs');
   };
 
   return (

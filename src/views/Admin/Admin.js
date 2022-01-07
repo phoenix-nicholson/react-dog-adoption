@@ -11,14 +11,13 @@ export default function Admin() {
     dog[key] = value;
     setDog({ ...dog });
   };
-
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await createDog(dog);
-    if (dog !== '') {
-      alert("You've successfully added a dog");
-    } else {
-      alert('Request to database has failed, please try again');
+    try {
+      await createDog(dog);
+      alert("You've succesfully created your dog");
+    } catch (e) {
+      alert('failed to create dog');
     }
   };
 

@@ -9,7 +9,7 @@ export default function DogDetails({ dog, handleDelete }) {
       <p>Age: {dog.age}</p>
       <p>Breed: {dog.breed}</p>
       <p>{dog.bio}</p>
-      <Link key={dog.id} to={`/dogs/${dog.id}/edit`}>
+      <Link className="Link" key={dog.id} to={`/dogs/${dog.id}/edit`}>
         Edit
       </Link>
       <button onClick={handleDelete}>Delete Post</button>
