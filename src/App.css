@@ -9,10 +9,28 @@ body {
   text-shadow: -1px -1px 0 rgb(252, 251, 251), 1px -1px 0 rgb(14, 13, 13), -1px 1px 0 #000,
     1px 1px 0 #000;
 }
+form {
+  margin: 15px;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+  border-radius: 20px;
+  border: 2px solid black;
+}
 .Link {
   color: white;
   text-shadow: -1px -1px 0 rgb(15, 15, 15), 1px -1px 0 rgb(14, 13, 13), -1px 1px 0 #000,
     1px 1px 0 #000;
+  margin: 10px;
+}
+button {
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  margin: 10px;
+  border-radius: 25px;
+  font-size: 1rem;
 }
 img {
   height: auto;

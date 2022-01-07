@@ -7,261 +7,126 @@ exports[`should render a list of dogs 1`] = `
       <div>
         <h1>
           Meet 
-          Barton
-        </h1>
-        <a
-          href="/dogs/10"
-        >
-          <img
-            src="https://placedog.net/500?id=6"
-          />
-        </a>
-        <p>
-          Barton
-           is a 
-          1
-           year old 
-          Weimaraner
-        </p>
-      </div>
-      <div>
-        <h1>
-          Meet 
-          Happy
-        </h1>
-        <a
-          href="/dogs/11"
-        >
-          <img
-            src="https://placedog.net/500?id=21"
-          />
-        </a>
-        <p>
-          Happy
-           is a 
-          11
-           year old 
-          French Bulldog
-        </p>
-      </div>
-      <div>
-        <h1>
-          Meet 
-          Eyes
-        </h1>
-        <a
-          href="/dogs/14"
-        >
-          <img
-            src="https://placedog.net/500?id=22"
-          />
-        </a>
-        <p>
-          Eyes
-           is a 
-          4
-           year old 
-          Weimaraner Mix
-        </p>
-      </div>
-      <div>
-        <h1>
-          Meet 
-          Pugilicious
-        </h1>
-        <a
-          href="/dogs/15"
-        >
-          <img
-            src="https://placedog.net/500?id=26"
-          />
-        </a>
-        <p>
-          Pugilicious
-           is a 
-          12
-           year old 
-          Pug
-        </p>
-      </div>
-      <div>
-        <h1>
-          Meet 
-          Melba
+          Bruce
         </h1>
         <a
           href="/dogs/5"
         >
           <img
-            src="https://placedog.net/500?id=8"
+            src="https://placedog.net/500?id=57
+"
           />
         </a>
         <p>
-          Melba
-           is a 
-          4
-           year old 
-          Austrailian Cattle Dog
-        </p>
-      </div>
-      <div>
-        <h1>
-          Meet 
-          Liliana
-        </h1>
-        <a
-          href="/dogs/9"
-        >
-          <img
-            src="https://placedog.net/500?id=5"
-          />
-        </a>
-        <p>
-          Liliana
+          Bruce
            is a 
           1
            year old 
-          Husky
+          Bull dog
         </p>
       </div>
       <div>
         <h1>
           Meet 
-          Ron
+          Mellony
         </h1>
         <a
-          href="/dogs/6"
+          href="/dogs/1"
         >
           <img
-            src="https://images.pexels.com/photos/6246667/pexels-photo-6246667.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+            src="https://placedog.net/500?id=32
+"
           />
         </a>
         <p>
-          Ron
+          Mellony
            is a 
-          0
+          1
            year old 
-          Golden Retriever
+          Terrier
         </p>
       </div>
       <div>
         <h1>
           Meet 
-          Amely
+          Miki
         </h1>
         <a
           href="/dogs/2"
         >
           <img
-            src="https://placedog.net/500?id=12"
+            src="https://placedog.net/500?id=171
+"
           />
         </a>
         <p>
-          Amely
+          Miki
            is a 
-          0
+          1
            year old 
-          Rottweiler
+          Border Collie 
         </p>
       </div>
       <div>
         <h1>
           Meet 
-          Althea
+          Karen
         </h1>
         <a
           href="/dogs/3"
         >
           <img
-            src="https://placedog.net/500?id=10"
+            src="https://placedog.net/500?id=85
+"
           />
         </a>
         <p>
-          Althea
+          Karen
            is a 
-          1
+          3
            year old 
-          German Short-haired Pointer
+          Yorkie
         </p>
       </div>
       <div>
         <h1>
           Meet 
-          Franny
+          Luna 
         </h1>
         <a
           href="/dogs/4"
         >
           <img
-            src="https://placedog.net/500?id=51"
+            src="https://placedog.net/500?id=101
+"
           />
         </a>
         <p>
-          Franny
+          Luna 
            is a 
           4
            year old 
-          French Bulldog
+          Retriever mix
         </p>
       </div>
       <div>
         <h1>
           Meet 
-          Ginny
+          Not a Dog
         </h1>
         <a
-          href="/dogs/16"
+          href="/dogs/12"
         >
           <img
-            src="https://images.pexels.com/photos/5886866/pexels-photo-5886866.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            src="https://placekitten.com/200/300"
           />
         </a>
         <p>
-          Ginny
+          Not a Dog
            is a 
-          0
+          123
            year old 
-          Golden Retriever
-        </p>
-      </div>
-      <div>
-        <h1>
-          Meet 
-          Eileen
-        </h1>
-        <a
-          href="/dogs/8"
-        >
-          <img
-            src="https://placedog.net/500?id=4"
-          />
-        </a>
-        <p>
-          Eileen
-           is a 
-          2
-           year old 
-          American Boxer
-        </p>
-      </div>
-      <div>
-        <h1>
-          Meet 
-          Mrs. Weasley
-        </h1>
-        <a
-          href="/dogs/17"
-        >
-          <img
-            src="https://placedog.net/1000/563?id=3"
-          />
-        </a>
-        <p>
-          Mrs. Weasley
-           is a 
-          3
-           year old 
-          Golden Retriever
+          Cat
         </p>
       </div>
     </div>

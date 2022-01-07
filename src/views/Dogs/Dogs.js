@@ -1,10 +1,10 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import { fetchDogs } from '../../services/dog';
-import DogList from '../../components/DogList';
+import DogList from '../../components/DogList-v2';
 
 export default function Dogs() {
-  const [dogs, setDogs] = useState([]);
+  const [dogs, setDogs] = useState({});
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
