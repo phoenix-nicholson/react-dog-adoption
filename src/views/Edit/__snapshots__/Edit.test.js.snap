@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders individual dog 1`] = `
+<div>
+  <div>
+    <form>
+      <label>
+        Name:
+        <input
+          name="name"
+          type="text"
+          value="Luna "
+        />
+      </label>
+      <label>
+        Age:
+        <input
+          name="age"
+          type="text"
+          value="4"
+        />
+      </label>
+      <label>
+        Image URL:
+        <input
+          name="image"
+          type="text"
+          value="https://placedog.net/500?id=101
+"
+        />
+      </label>
+      <label>
+        Breed:
+        <input
+          name="breed"
+          type="text"
+          value="Retriever mix"
+        />
+      </label>
+      <label>
+        Bio:
+        <input
+          name="bio"
+          type="text"
+          value="Is a Lunatic but sweet"
+        />
+      </label>
+      <button>
+        submit
+      </button>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`renders t 1`] = `
+<div>
+  <div>
+    <form>
+      <label>
+        Name:
+        <input
+          name="name"
+          type="text"
+          value="Luna "
+        />
+      </label>
+      <label>
+        Age:
+        <input
+          name="age"
+          type="text"
+          value="4"
+        />
+      </label>
+      <label>
+        Image URL:
+        <input
+          name="image"
+          type="text"
+          value="https://placedog.net/500?id=101
+"
+        />
+      </label>
+      <label>
+        Breed:
+        <input
+          name="breed"
+          type="text"
+          value="Retriever mix"
+        />
+      </label>
+      <label>
+        Bio:
+        <input
+          name="bio"
+          type="text"
+          value="Is a Lunatic but sweet"
+        />
+      </label>
+      <button>
+        submit
+      </button>
+    </form>
+  </div>
+</div>
+`;

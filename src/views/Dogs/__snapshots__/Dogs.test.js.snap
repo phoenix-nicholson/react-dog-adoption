@@ -109,6 +109,26 @@ exports[`should render a list of dogs 1`] = `
           Retriever mix
         </p>
       </div>
+      <div>
+        <h1>
+          Meet 
+          Not a Dog
+        </h1>
+        <a
+          href="/dogs/12"
+        >
+          <img
+            src="https://placekitten.com/200/300"
+          />
+        </a>
+        <p>
+          Not a Dog
+           is a 
+          123
+           year old 
+          Cat
+        </p>
+      </div>
     </div>
   </div>
 </div>
