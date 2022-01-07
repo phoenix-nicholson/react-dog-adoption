@@ -31,3 +31,8 @@ export async function createDog(dog) {
   });
   return checkError(resp);
 }
+
+export async function deleteDog(dog) {
+  const resp = await client.from('dogs').delete().match({ id: dog.id });
+  return checkError(resp);
+}

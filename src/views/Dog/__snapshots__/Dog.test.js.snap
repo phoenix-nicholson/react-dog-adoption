@@ -5,22 +5,31 @@ exports[`renders dogDetails 1`] = `
   <div>
     <div>
       <img
-        src="https://placedog.net/500?id=6"
+        src="https://placedog.net/500?id=101
+"
       />
       <h1>
-        Barton
+        Luna
       </h1>
       <p>
         Age: 
-        1
+        4
       </p>
       <p>
         Breed: 
-        Weimaraner
+        Retriever mix
       </p>
       <p>
-        Adores every person he meets. Very social and lots of energy
+        Is a Lunatic but sweet
       </p>
+      <a
+        href="/dogs/4/edit"
+      >
+        Edit
+      </a>
+      <button>
+        Delete Post
+      </button>
     </div>
   </div>
 </div>

@@ -15,6 +15,11 @@ export default function Admin() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     await createDog(dog);
+    if (dog !== '') {
+      alert("You've successfully added a dog");
+    } else {
+      alert('Request to database has failed, please try again');
+    }
   };
 
   return (

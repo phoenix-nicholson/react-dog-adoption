@@ -2,6 +2,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import { fetchDogsById } from '../../services/dog';
 import DogDetails from '../../components/DogDetails-v2';
+import { deleteDog } from '../../services/dog';
 
 export default function Dog(props) {
   const [dog, setDog] = useState([]);
@@ -26,9 +27,14 @@ export default function Dog(props) {
     return <div>Loading...</div>;
   }
 
+  const handleDelete = async (e) => {
+    e.preventDefault();
+    await deleteDog(dog);
+  };
+
   return (
     <div>
-      <DogDetails dog={dog} />
+      <DogDetails dog={dog} handleDelete={handleDelete} />
     </div>
   );
 }

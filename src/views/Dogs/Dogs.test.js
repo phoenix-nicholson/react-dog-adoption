@@ -8,7 +8,7 @@ test('should render a list of dogs', async () => {
       <Dogs />
     </MemoryRouter>
   );
-  await screen.findByText('Meet Barton');
+  await screen.findByText('Meet Luna');
   expect(container).toMatchSnapshot();
 });
 //fixing pull requests

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-export default function DogDetails({ dog }) {
+export default function DogDetails({ dog, handleDelete }) {
   return (
     <div key={dog.id}>
       <img src={dog.image}></img>
@@ -12,6 +12,7 @@ export default function DogDetails({ dog }) {
       <Link key={dog.id} to={`/dogs/${dog.id}/edit`}>
         Edit
       </Link>
+      <button onClick={handleDelete}>Delete Post</button>
     </div>
   );
 }
