@@ -30,6 +30,11 @@ export default function Dog(props) {
   const handleDelete = async (e) => {
     e.preventDefault();
     await deleteDog(dog);
+    if (dog !== '') {
+      alert("You've successfully deleted a dog");
+    } else {
+      alert('Request to database has failed, please try again');
+    }
   };
 
   return (

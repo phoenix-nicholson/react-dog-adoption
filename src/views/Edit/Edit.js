@@ -29,6 +29,11 @@ export default function DogEdit(props) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     await updateDog(dog);
+    if (dog !== '') {
+      alert("You've successfully edited your dog");
+    } else {
+      alert('Request to database has failed, please try again');
+    }
   };
 
   return (
