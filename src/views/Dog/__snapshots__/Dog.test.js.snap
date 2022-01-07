@@ -9,7 +9,7 @@ exports[`renders dogDetails 1`] = `
 "
       />
       <h1>
-        Luna
+        Luna 
       </h1>
       <p>
         Age: 
